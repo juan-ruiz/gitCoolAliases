@@ -12,7 +12,7 @@ Here are all the Git cool aliases for better log representation.
 
 This branch view log shows the git commits on a oneline way with branch decorations, relative datetime, and the name. Great for a quick glimpse of the branch history of your git repo. 
 
-	git config --global alias.superlog "log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
+	git config --global alias.branchView "log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
 	
 
 
